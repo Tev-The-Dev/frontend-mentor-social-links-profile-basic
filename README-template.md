@@ -6,7 +6,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,22 +25,10 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Tev-The-Dev/frontend-mentor-social-links-profile-basic)
+- Live Site URL:(https://frontend-mentor-social-links-profile-basic.pages.dev/)
 
 ## My process
 
@@ -50,61 +37,50 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
+A lot of what I learned during this project was code organization. On one of my last frontend mentor projects, my style-sheet wasn't as organized as it could have been. I was just throwing things at the screen and seeing what happened, but this time I was more deliberate with what I wrote. I took note from one of my fellow coders and started by adding variables at the beginning to be used throughout the project, this way, if I change that one variables value, it will reflect in all other areas where I used that variable instead of trying to eye-ball and match the values. I also did a top-down organization strategy. Starting with the main body container, designing that properly, then going section-by section until I felt confident that I had completed the section to satisfaction. Overall, I think I did really well on this project from start to finish and I will be continuing with this strategy as it helped so much when something didn't look right, or line up as I thought it should have.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+I also re-learned how to do media queries for responsive designs. This was something I wasn't familiar with, even though I learned it in my class, but I only got the one practice with them. This project brought that back to me and although mine may not be 100% perfect for scaling, it is a good start I think.
+
+This is how I made those variables in the stylesheet:
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+    --Paragraph: 14px;
+    --font_family: 'Inter', sans-serif;
+    --font_weight400: 400;
+    --font_weight600: 600;
+    --font_weight700: 700;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+An area that I want to be more confident in is using flexboxes. I started playing flex-box zombies a couple weeks ago then got inspired to start frontend mentor. I struggled with flex-basic and the last 4 levels of the game so this is something that I want to understand better.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Flexbox Zombies](https://mastery.games/flexboxzombies/) - This helped me understand how to organize content on a page. This is a great and fun tool to organize content, whether it needs to be centered, right/left aligned or make the page cleaner.
+- [Microsoft Copilot](https://copilot.cloud.microsoft) - This is an amazing tool to help check for errors, especially since I used basic text editor insted of something like Visual Studio Code. It is also a great tool to ask the syntax of a particular tag, for example, if I needed to remember the syntax of the <img> tag. Should i use src or href to get the image data to link.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Tev-The-Dev](https://github.com/Tev-The-Dev)
+- Frontend Mentor - [@Tev-The-Dev](https://www.frontendmentor.io/profile/Tev-The-Dev)
+- LinkedIn - [Tevyn Payne](https://www.linkedin.com/in/tevyn-payne/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I took great inspiration and was inspired to organize my files from Tiouk Amine (@aminetiouk)https://www.frontendmentor.io/profile/aminetiouk 
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+His designs are very accurate and noteworthy and I was able to learn and understand much just by studying his code. I know I've already said it to you, but if you're reading this Tiouke, Thank you for being awesome!
+
