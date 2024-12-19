@@ -12,14 +12,14 @@
 }
 
 body {
-    background-color: black;
+    background-color: var(--Grey900);
     height: 100vh;
     font-family: var(--font_family);
     font-size: var(--Paragraph);
 }
 
 .container {
-    background-color: var(--Grey900);
+    background-color: var(--Grey800);
     border-radius: 5px;
     padding: 45px 25px 25px 25px;
 }
